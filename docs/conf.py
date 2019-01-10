@@ -3,6 +3,7 @@ import os
 
 sys.path.append(os.path.abspath('..'))
 sys.path.append(os.path.abspath('./demo/'))
+sys.path.append(os.path.abspath('./paddle_demo/'))
 
 from pytorch_sphinx_theme import __version__
 

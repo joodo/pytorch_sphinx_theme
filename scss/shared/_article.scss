@@ -12,14 +12,14 @@ article.pytorch-article {
   }
 
   h2 {
-    font-size: rem(26px);
+    font-size: rem(24px);
     letter-spacing: 1.33px;
     line-height: rem(32px);
     text-transform: capitalize;
   }
 
   h3 {
-    font-size: rem(24px);
+    font-size: rem(22px);
     letter-spacing: -0.25px;
     line-height: rem(30px);
     text-transform: none;
@@ -28,25 +28,28 @@ article.pytorch-article {
   h4,
   h5,
   h6 {
-    font-size: rem(18px);
+    font-size: rem(17px);
     letter-spacing: -0.19px;
     line-height: rem(30px);
   }
 
   p {
-    margin-bottom: rem(18px);
+    margin-bottom: rem(17px);
   }
 
-  p,
   ul li,
   ol li,
   dl dt,
   dl dd,
+  p,
   blockquote {
-    font-size: rem(16px);
+    font-size: rem(15px);
     line-height: rem(22px);
     color: $slate;
     letter-spacing: 0.01px;
+  }
+
+  dl dt {
     font-weight: 500;
   }
 

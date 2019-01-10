@@ -25,3 +25,10 @@
     :caption: This is an incredibly long caption for a long menu
 
     demo/long
+
+.. toctree::
+    :maxdepth: 2
+    :caption: Paddle 示例文档
+
+    paddle_demo/initializer.rst
+    paddle_demo/initializer_cn.rst
